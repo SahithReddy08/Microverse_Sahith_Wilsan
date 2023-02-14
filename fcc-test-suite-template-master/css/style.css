@@ -1,3 +1,17 @@
 *welcome-section{
     height: auto;
 }
+#navbar{
+    position: absolute;
+}
+@media (min-width: 621px) {
+    #projects-grid a h3 {
+      opacity: 0;
+      transition-duration: 0.3s;
+    }
+  }  
+    #projects-grid a .project-tile:hover h3 {
+      opacity: 1;
+      transform: translateY(-1rem);
+    }
+  
